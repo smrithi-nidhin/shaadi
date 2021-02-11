@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#000000" />
+
+	<meta name="description" content="Web site created using create-react-app" />
+	<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+	<title>React App</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+	<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+	<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+	<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+
+
+	<meta name="keywords" content="Match Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+	<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=devanagari,latin-ext"
+		rel="stylesheet">
+	<link
+		href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<link rel="stylesheet" href="css/intlTelInput.css">
+</head>
+
+<body>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+	<div id="root"></div>
+
+</body>
+<script>
+	$(document).ready(function () {
+		$(".dropdown").hover(
+			function () {
+				$('.dropdown-menu', this).stop(true, true).slideDown("fast");
+				$(this).toggleClass('open');
+			},
+			function () {
+				$('.dropdown-menu', this).stop(true, true).slideUp("fast");
+				$(this).toggleClass('open');
+			}
+		);
+	});
+</script>
+<script src="js/jquery-ui.js"></script>
+<script>
+	$(function () {
+		$("#datepicker").datepicker();
+	});
+</script>
+<script src="js/jquery.menu-aim.js"> </script>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+
+		$().UItoTop({ easingType: 'easeOutQuart' });
+
+	});
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function ($) {
+		$(".scroll").click(function (event) {
+			event.preventDefault();
+			$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+		});
+	});
+</script>
+<script src="js/intlTelInput.js"></script>
+<script>
+	$("#phone").intlTelInput({
+
+		utilsScript: "js/utils.js"
+	});
+</script>
+
+</html>

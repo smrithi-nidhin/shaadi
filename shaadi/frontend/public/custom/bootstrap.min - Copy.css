@@ -1,0 +1,145 @@
+.form-horizontal{
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	width:100%;
+	height:auto;
+	background-color:#fff;
+	display:inline-block;
+	padding:15px;
+	margin-top:15px;
+	margin-bottom:15px;
+	font-size:12px;
+}
+.form-group{
+	width:100%;
+	display:inline-table;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="date"],
+.form-group input[type="datetime"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group input[type="search"],
+.form-group input[type="tel"],
+.form-group input[type="time"],
+.form-group input[type="url"]{
+	height: 24px;
+}
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="date"],
+.form-group input[type="datetime"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group input[type="search"],
+.form-group input[type="tel"],
+.form-group input[type="time"],
+.form-group input[type="url"],
+.form-group textarea{
+  height: auto;
+  padding:3px 0px;
+  border:none;
+  outline: 0;
+  width: 100%;
+  border: 1px solid #E1E1E1;
+  color: 000;/*#8a97a0;*/
+  max-width:400px;
+}
+.form-group textarea{
+	height: 75px;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+
+}
+
+.form-group select {
+     padding-top:2px;
+	 padding-bottom:2px;
+}
+
+.form-horizontal button {
+  padding:5px;
+  color: #FFF;
+  background-color: #008c99;
+  font-size: 12px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  border:none;
+  outline:0;
+  cursor:pointer;
+}
+.form-horizontal button.ok{
+	background: #008c99;
+    padding: 8px 10px 8px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    cursor: pointer;
+    font-size:14px;
+    margin:10px;
+}
+.form-horizontal button.close{
+	background: #008c99;
+    padding: 8px 10px 8px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    cursor: pointer;
+    font-size:14px;
+    margin:10px;
+}
+.toggle-b{
+	  background: #008c99;
+	  padding:5px;
+	  color: #fff;
+	  text-decoration: none;
+	  -moz-border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  cursor: pointer;
+	  float:left;
+	  border:none;
+	  outline:0;
+	}
+.checkbox-inline,.radio-inline{display:inline-block;}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate
+}
+.input-group>input[type="text"]{float:left;width:100px;
+}
+.input-group .input-group-addon{
+
+	float:left;
+}
+.form-horizontal label{
+    color:#444;
+    text-align: right;
+}
+.form-horizontal select
+{
+    border: 1px solid #E1E1E1;
+    width: 130px;
+    float:left;
+    color: #505050;
+    margin-right:5px;
+}
+.form-horizontal input:focus,.form-horizontal select:focus{
+    background-color: #efffe0;
+}
+.form-group select[multiple] {
+    height: auto;
+}

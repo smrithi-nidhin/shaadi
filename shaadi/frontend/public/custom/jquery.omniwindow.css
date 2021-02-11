@@ -1,0 +1,169 @@
+/* Default class for an overlay */
+.ow-overlay {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  background-image:url(images/modalback.png);
+  opacity: 0.8;
+}
+
+/* Default class for both hidden overlay and modal window */
+.ow-closed {
+  display: none;
+}
+
+/* Default class for modal window */
+.modalhr{
+	position: fixed;
+	z-index: 20;
+	left: 30%;
+	top: 30%;
+	width: 600px;
+	height:auto;
+	background-color: #FFF;
+	border:15px solid;
+	border-radius:10px;
+	padding:15px;
+}
+.modalc,.modalphoto{
+  position: fixed;
+  z-index: 20;
+  left: 30%;
+  top: 50px;
+  width: 500px;
+  height: auto;
+  background-color: #fff;
+}
+.modal1,.nummodal,.mailmodal,.msgmodal,.modal2,.modal3{
+  position: fixed;
+  z-index: 20;
+  /*left: 30%;*/
+  left: 30%;
+  top: 30%;
+  width: 30%;
+  height:auto;
+  background-color: #FFF;
+  border:5px solid;
+  border-radius:10px;
+  padding:15px;
+
+}
+.modal-close-button1{
+	     position:absolute;
+		 outline:0;
+		 width:25px;
+		 height:25px;
+		 color:#FFF;
+		 right:5px;
+		 top:5px;
+		 padding:5px 8px;
+		 text-decoration:none;
+		 background-color:#000;
+		 border-radius:50%;
+		 z-index:99999;
+	}
+.modal-close-button{
+	    z-index:99999;
+	     position:absolute;
+		 outline:0;
+		 width:30px;
+		 height:30px;
+		 background: #008c99;
+		 color:#FFF;
+		 right:-10px;
+		 top:-10px;
+		 padding:6px 9px;
+		 border-radius: 25px;
+		 -webkit-border-radius: 25px;
+		 -moz-border-radius: 25px;
+		 -webkit-border-radius: 25px;
+		 text-decoration:none;
+		 border: thin solid #fff;
+	}
+
+.modal-panel {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+.modal-footer {
+	text-align:center;
+}
+.orange-border{background-color:#F7F7F7}
+.profile-right>.ok{outline:0;border:1px solid #fff;color:#FFF;background-color:#008c99;font-size:14px;padding:6px 7px;border-radius:5px;margin-right:3px;margin-top:13px;}
+.profile-right>.ok:hover{border:1px solid #008c99;color:#008c99;background-color:#F7F7F7;border-radius:5px;}
+.profile-right{display:inline-block;float:right;margin-top:-60px;/*-50px*/}
+.modal-prof{background-color:#FFF;padding:5px;width:200px;float:left;margin-left:15px;margin-bottom:10px;}
+.modal-prof>img{width:100%;height:220px}
+.profile-name{
+		font-size:24px;
+		margin-left:20px;
+		padding-top:10px;
+	}
+
+.account-status{background-color:#060;color:#FFF;font-size:10px;padding:4px;border-radius:3px;text-transform:uppercase;vertical-align:middle;}
+.profile-for{font-size:12px;margin-left:20px;margin-top:10px;}
+
+.modal-img{background-color:#FFF;padding:5px;width:180px;float:left;}
+.modal-img>img{width:100%;height:200px}
+.modal-img>div{width:100%;background-color:#f5f5f5;text-align:center;padding:10px 0px;}
+.modal-img>div>a{color:#09F;}
+.m-button{
+		height:auto;
+		font-size: 15px;
+		float:right;
+		padding:8px 8px;
+		color:#FFF;
+		background: #008c99;
+		border: thin solid #fff;
+		text-decoration:none;
+		border-radius:4px;
+		margin-bottom:10px;margin-right:2px
+	}
+.m-button:hover{color:#000;}
+.modal-close-button:hover{color:#000;}
+table tr > td{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:9pt;
+		color:  rgb(102,102,102);
+	}
+table tr > td:first-child {
+		font-weight:normal;/*bold;*/
+	}
+
+.table1 tr td:nth-child(3n+3) {
+	color:Black;
+}
+/*progress bar*/
+.contact-css{width:100%;height:auto;position:relative;display:block;}
+.contact-css>.tittle{font-size:17px;display:block;}
+.contact-css>.description{font-size:14px;display:block;margin-bottom:10px;margin-top:10px;}
+.contact-css>.sms-box,.contact-css>.mobile-box{
+	width:240px;
+	height:auto;
+	float:left;
+	padding:10px 20px;
+	background-color:#EEE9F3;
+	border:1px solid #F3DEED;
+	margin-left:15px;
+	margin-bottom:15px;
+	margin-top:15px;
+	text-align:center;
+	}
+.contact-css>.sms-box>.sms-button,.contact-css>.mobile-box>.mobile-button{background-color:green;border:none;padding:6px 9px;color:#FFF;outline:0;cursor:pointer;/*background-color:#F30;*/}
+.contact-css .button-bottom{font-size:12px;display:block;margin-top:5px;margin-bottom:5px; }
+
+
+.hoscope{position:relative;display:block;float:right;}
+.about-my{position:relative; width:65%;/*100%;*/height:100px; word-break:break-all;display:inline-block;padding-left:70px;}
+.text-about{font-size:14px; }
+.profile-search{font-size:16px;margin-left:20px;color:#000;}
+.text-about>p::first-letter {
+    font-size: 150%;
+    color: #000000;
+	text-transform:uppercase;
+}
